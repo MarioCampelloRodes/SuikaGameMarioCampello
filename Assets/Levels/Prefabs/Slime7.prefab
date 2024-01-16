@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1663986550720523139}
   - component: {fileID: 7873033875118178123}
   - component: {fileID: 964713065124716087}
+  - component: {fileID: -5080014229444483707}
   m_Layer: 0
   m_Name: Slime7
-  m_TagString: Untagged
+  m_TagString: Slime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -970173035
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1784162575, guid: 8e3a2cea426f87d4394069f2fd61fe72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -148,3 +149,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.46875
+--- !u!114 &-5080014229444483707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2613630273486428378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7eeb734f0fa0f46a815db606ffc9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slimeType: 6
